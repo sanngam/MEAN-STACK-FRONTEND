@@ -1,6 +1,6 @@
 #MVC
 
-[(https://dotnet.microsoft.com/apps/aspnet/mvc)] Controlador de vista de modelo (MVC)
+[https://dotnet.microsoft.com/apps/aspnet/mvc] Controlador de vista de modelo (MVC)
 
 MVC es un patrón de diseño que se utiliza para desacoplar la interfaz de usuario (vista), los datos (modelo) y la lógica de la aplicación (controlador). Este patrón ayuda a lograr la separación de preocupaciones.
 
