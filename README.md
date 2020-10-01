@@ -1,5 +1,3 @@
-##INTRODUCCION
-
 #MVC
 
 Controlador de vista de modelo (MVC)
