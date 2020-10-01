@@ -48,10 +48,10 @@ Las nuevas versiones de CakePHP han mejorado su rendimiento a lo largo del tiemp
 
  Características principales:
 
-   Aprovecha un amplio conjunto de componentes.
-   Usa las convenciones de CakePHP para programar proyectos más rápido.
+    Aprovecha un amplio conjunto de componentes.
+    Usa las convenciones de CakePHP para programar proyectos más rápido.
  
- #### Ventajas ofrece el modelo MVC
+ #### Ventajas que ofrece el modelo MVC
   Entre las principales ventajas que puede ofrecernos un desarrollo MVC podemos destacar las siguientes:
 
    -Separación clara de dónde tiene que ir cada tipo de lógica, facilitando el mantenimiento y la escalabilidad de nuestra aplicación.
