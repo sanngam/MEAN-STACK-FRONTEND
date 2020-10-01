@@ -55,11 +55,17 @@ Las nuevas versiones de CakePHP han mejorado su rendimiento a lo largo del tiemp
   Entre las principales ventajas que puede ofrecernos un desarrollo MVC podemos destacar las siguientes:
 
    -Separación clara de dónde tiene que ir cada tipo de lógica, facilitando el mantenimiento y la escalabilidad de nuestra aplicación.
+   
    -Sencillez para crear distintas representaciones de los mismos datos.
+   
    -Facilidad para la realización de pruebas unitarias de los componentes, así como de aplicar desarrollo guiado por pruebas (Test Driven Development o TDD).
+   
    -Reutilización de los componentes.
+   
    -No existe ciclo de vida de las páginas. Con menos peso, menos complejidad.
+   
    -Motor de Routing asociando una URL concreta con su correspondiente controlador, permitiendo URL semánticas. Las URL semánticas se indexan mejor en los buscadores, siendo más adecuadas para el posicionamiento web.
+   
    -Recomendable para el diseño de aplicaciones web compatibles con grandes equipos de desarrolladores y diseñadores web que necesitan gran control sobre el comportamiento de la aplicación.
 
  
