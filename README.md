@@ -1,4 +1,4 @@
-## INTROUCCION
+## INTRODUCCION
 
 # MVC
 
@@ -9,7 +9,7 @@ MVC es un patrón de diseño que se utiliza para desacoplar la interfaz de usuar
 Al utilizar el patrón MVC para sitios web, las solicitudes se enrutan a un controlador que es responsable de trabajar con el modelo para realizar acciones y / o recuperar datos. El controlador elige la vista que se mostrará y le proporciona el modelo. La vista representa la página final, según los datos del modelo.[https://dotnet.microsoft.com/apps/aspnet/mvc]
 
 ## MARCO TEORICO
-### ¿Que frameworks utiliza el modelo MVC? 
+### Frameworks que utilizan el modelo MVC
 
  #### CodeIgniter [https://www.hostinger.mx/tutoriales/mejores-frameworks-php/]
  CodeIgniter es un framework PHP que usa una arquitectura de Model View Controller (MVC). En términos sencillos, eso significa que CodeIgniter utiliza diferentes componentes para manejar tareas de desarrollo específicas. Este enfoque es muy popular entre los desarrolladores porque permite crear aplicaciones web altamente escalables con un tamaño más reducido.
@@ -48,7 +48,19 @@ Las nuevas versiones de CakePHP han mejorado su rendimiento a lo largo del tiemp
 
  Características principales:
 
-    Aprovecha un amplio conjunto de componentes.
-    Usa las convenciones de CakePHP para programar proyectos más rápido.
+   Aprovecha un amplio conjunto de componentes.
+   Usa las convenciones de CakePHP para programar proyectos más rápido.
+ 
+ #### Ventajas ofrece el modelo MVC
+  Entre las principales ventajas que puede ofrecernos un desarrollo MVC podemos destacar las siguientes:
+
+   -Separación clara de dónde tiene que ir cada tipo de lógica, facilitando el mantenimiento y la escalabilidad de nuestra aplicación.
+   -Sencillez para crear distintas representaciones de los mismos datos.
+   -Facilidad para la realización de pruebas unitarias de los componentes, así como de aplicar desarrollo guiado por pruebas (Test Driven Development o TDD).
+   -Reutilización de los componentes.
+   -No existe ciclo de vida de las páginas. Con menos peso, menos complejidad.
+   -Motor de Routing asociando una URL concreta con su correspondiente controlador, permitiendo URL semánticas. Las URL semánticas se indexan mejor en los buscadores, siendo más adecuadas para el posicionamiento web.
+   -Recomendable para el diseño de aplicaciones web compatibles con grandes equipos de desarrolladores y diseñadores web que necesitan gran control sobre el comportamiento de la aplicación.
+
  
     
