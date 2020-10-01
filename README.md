@@ -11,7 +11,7 @@ Al utilizar el patrón MVC para sitios web, las solicitudes se enrutan a un cont
 ## MARCO TEORICO
 ### ¿Que frameworks utiliza el modelo MVC? 
 
- #### CodeIgniter
+ #### CodeIgniter [https://www.hostinger.mx/tutoriales/mejores-frameworks-php/]
  CodeIgniter es un framework PHP que usa una arquitectura de Model View Controller (MVC). En términos sencillos, eso significa que CodeIgniter utiliza diferentes componentes para manejar tareas de desarrollo específicas. Este enfoque es muy popular entre los desarrolladores porque permite crear aplicaciones web altamente escalables con un tamaño más reducido.
  
  Características principales:
