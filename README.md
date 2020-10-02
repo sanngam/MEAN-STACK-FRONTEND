@@ -51,7 +51,7 @@ Las nuevas versiones de CakePHP han mejorado su rendimiento a lo largo del tiemp
     Aprovecha un amplio conjunto de componentes.
     Usa las convenciones de CakePHP para programar proyectos más rápido.
  
- #### Ventajas que ofrece el modelo MVC
+ ### Ventajas que ofrece el modelo MVC
   Entre las principales ventajas que puede ofrecernos un desarrollo MVC podemos destacar las siguientes:
 
    -Separación clara de dónde tiene que ir cada tipo de lógica, facilitando el mantenimiento y la escalabilidad de nuestra aplicación.
@@ -68,7 +68,7 @@ Las nuevas versiones de CakePHP han mejorado su rendimiento a lo largo del tiemp
    
    -Recomendable para el diseño de aplicaciones web compatibles con grandes equipos de desarrolladores y diseñadores web que necesitan gran control sobre el comportamiento de la aplicación. [https://marketiweb.com/empresa/blog/item/114-que-es-la-arquitectura-mvc-y-cuales-son-sus-ventajas]
    
-   #### Otros modelos/frameworks de patrones de diseño que existen
+   ### Otros modelos/frameworks de patrones de diseño que existen
   
    Modelo–Vista–Presentador (MVP) es una derivación del patrón arquitectónico modelo–vista–controlador (MVC), y es utilizado mayoritariamente para construir interfaces de usuario. En MVP el presentador asume la funcionalidad del "medio-hombre". En MVP, toda lógica de presentación es colocada al presentador.
 
