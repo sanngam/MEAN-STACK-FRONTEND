@@ -8,7 +8,7 @@ MVC es un patrón de diseño que se utiliza para desacoplar la interfaz de usuar
 
 Al utilizar el patrón MVC para sitios web, las solicitudes se enrutan a un controlador que es responsable de trabajar con el modelo para realizar acciones y / o recuperar datos. El controlador elige la vista que se mostrará y le proporciona el modelo. La vista representa la página final, según los datos del modelo.[https://dotnet.microsoft.com/apps/aspnet/mvc]
 
-## DESAROLLO
+## DESARROLLO
 ### Frameworks que utilizan el modelo MVC
 
  #### CodeIgniter [https://www.hostinger.mx/tutoriales/mejores-frameworks-php/]
