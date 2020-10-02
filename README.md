@@ -68,6 +68,26 @@ Las nuevas versiones de CakePHP han mejorado su rendimiento a lo largo del tiemp
    
    -Recomendable para el diseño de aplicaciones web compatibles con grandes equipos de desarrolladores y diseñadores web que necesitan gran control sobre el comportamiento de la aplicación. [https://marketiweb.com/empresa/blog/item/114-que-es-la-arquitectura-mvc-y-cuales-son-sus-ventajas]
    
+   #### Otros modelos/frameworks de patrones de diseño que existen
+  
+   Modelo–Vista–Presentador (MVP) es una derivación del patrón arquitectónico modelo–vista–controlador (MVC), y es utilizado mayoritariamente para construir interfaces de usuario. En MVP el presentador asume la funcionalidad del "medio-hombre". En MVP, toda lógica de presentación es colocada al presentador.
+
+Un patrón de diseño llamado MVVM (Modelo-Vista-Vista-Modelo) aplicado a Xamarin Forms. Algunas de las caracteríticas más importantes que se obtienen al usar patrones de diseño:
+
+    Código más limpio y organizado.
+    Mayor claridad y mejor comprensión del proyecto frente a otros desarrolladores.
+    Reutilización de código
+    Mantenimiento más rápido
+
+
+
+
+
+
+
+		
+
+   
 
  
     
