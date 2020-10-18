@@ -10,6 +10,7 @@ El método GET significa recuperar cualquier información (en forma de una entid
 
 GET /index.html HTTP/1.1  
 User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+
 Host: www.yosoy.dev
 Accept-Language: es-mx
 Accept-Encoding: gzip, deflate
