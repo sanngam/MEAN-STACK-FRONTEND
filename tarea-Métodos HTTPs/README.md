@@ -8,9 +8,9 @@ El método GET significa recuperar cualquier información (en forma de una entid
 
 #### EJEMPLO
 
-GET /index.html HTTP/1.1  
-User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT) 
-Host: www.yosoy.dev 
-Accept-Language: es-mx 
-Accept-Encoding: gzip, deflate 
-Connection: Keep-Alive 
+1. GET /index.html HTTP/1.1  
+2. User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT) 
+3. Host: www.yosoy.dev 
+4. Accept-Language: es-mx 
+5. Accept-Encoding: gzip, deflate 
+6. Connection: Keep-Alive 
