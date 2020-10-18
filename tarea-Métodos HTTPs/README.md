@@ -15,7 +15,7 @@ El método GET significa recuperar cualquier información (en forma de una entid
 5. Accept-Encoding: gzip, deflate 
 6. Connection: Keep-Alive 
 
-### HEAD
+### [HEAD](https://yosoy.dev/peticiones-http-get-post-put-delete-etc/)
 
 El método HEAD es muy similar al GET (funcionalmente hablando), a excepción de que el servidor responde con líneas y headers, pero no con el body de la respuesta.
 
@@ -28,7 +28,7 @@ El método HEAD es muy similar al GET (funcionalmente hablando), a excepción de
 5. Accept-Encoding: gzip, deflate
 6. Connection: Keep-Alive
 
-### POST
+### [POST](https://yosoy.dev/peticiones-http-get-post-put-delete-etc/)
 
 El método POST es usado cuando se requiere enviar información al servidor como, por ejemplo, un archivo de actualización, información de formulario, etc. En otras palabras, éste método se usa cuando se necesita enviar una entidad para algún recurso determinado. La diferencia entre PUT y POST es que PUT es idempotente, mientras que si realizamos repetidas idénticas peticiones con el método POST, podría haber efectos adicionales como pasar una orden varias ocasiones.
 
@@ -46,7 +46,7 @@ Se enviará información de formulario al servidor, que será procesada por un p
 8. Connection: Keep-Alive
 
 
-### PUT
+### [PUT](https://yosoy.dev/peticiones-http-get-post-put-delete-etc/)
 
 El método PUT es usado para solicitar que el servidor almacene el cuerpo de la entidad en una ubicación específica dada por el URL.
 Ejemplo:
@@ -62,7 +62,7 @@ Se solicita al servidor que guarde el cuerpo de la entidad dada en index.htm en 
 7. Content-Length: 182
 
 
-### DELETE
+### [DELETE](https://yosoy.dev/peticiones-http-get-post-put-delete-etc/)
 
 Este método es utilizado para solicitar al servidor que elimine un archivo en una ubicación específica dada por la URL. En otras palabras más simples, este método elimina un recurso determinado.
 
@@ -74,7 +74,7 @@ Ejemplo: Se le solicitará al servidor eliminar el archivo hello.htm en la ruta 
 5. Connection: Keep-Alive
 
 	
-### OPTIONS
+### [OPTIONS](https://yosoy.dev/peticiones-http-get-post-put-delete-etc/)
 
 El método OPTIONS representa una solicitud de información acerca de las opciones de comunicación disponibles en el canal de solicitud/respuesta identificada por el Request-URI. En otras palabras, éste método es el que utilizamos para describir las opciones de comunicación existentes de un recurso destino. Dato: El cliente como tal puede especificar una URL para este método o, en su lugar, utilizar un asterisco para referirse al servidor completo.
 
