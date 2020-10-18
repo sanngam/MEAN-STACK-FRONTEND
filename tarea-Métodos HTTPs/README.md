@@ -27,7 +27,7 @@ Se necesita saber cuáles métodos de solicitud soporta el servidor de nuestra p
 	
 1. curl -X OPTIONS https://yosoy.dev -i
 
-#### HEAD
+### HEAD
 
 El método HEAD es muy similar al GET (funcionalmente hablando), a excepción de que el servidor responde con líneas y headers, pero no con el body de la respuesta.
 
