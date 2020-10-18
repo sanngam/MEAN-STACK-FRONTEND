@@ -60,6 +60,19 @@ Se solicita al servidor que guarde el cuerpo de la entidad dada en index.htm en 
 5. Connection: Keep-Alive
 6. Content-type: text/html
 7. Content-Length: 182
+
+
+### DELETE
+
+Este método es utilizado para solicitar al servidor que elimine un archivo en una ubicación específica dada por la URL. En otras palabras más simples, este método elimina un recurso determinado.
+
+Ejemplo: Se le solicitará al servidor eliminar el archivo hello.htm en la ruta raíz del servidor:
+1. DELETE /hello.htm HTTP/1.1
+2. User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+3. Host: www.yosoy.dev
+4. Accept-Language: es-mx
+5. Connection: Keep-Alive
+
 	
 ### OPTIONS
 
