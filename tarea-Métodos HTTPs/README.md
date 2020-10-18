@@ -14,18 +14,6 @@ El método GET significa recuperar cualquier información (en forma de una entid
 4. Accept-Language: es-mx 
 5. Accept-Encoding: gzip, deflate 
 6. Connection: Keep-Alive 
- 
-
-### OPTION
-
-El método OPTIONS representa una solicitud de información acerca de las opciones de comunicación disponibles en el canal de solicitud/respuesta identificada por el Request-URI. En otras palabras, éste método es el que utilizamos para describir las opciones de comunicación existentes de un recurso destino. Dato: El cliente como tal puede especificar una URL para este método o, en su lugar, utilizar un asterisco para referirse al servidor completo.
-
-#### Ejemplo: 
-
-Se necesita saber cuáles métodos de solicitud soporta el servidor de nuestra profesora, podemos utilizar curl y una solicitud OPTIONS:
-
-	
-1. curl -X OPTIONS https://yosoy.dev -i
 
 ### HEAD
 
@@ -39,3 +27,40 @@ El método HEAD es muy similar al GET (funcionalmente hablando), a excepción de
 4. Accept-Language: es-mx
 5. Accept-Encoding: gzip, deflate
 6. Connection: Keep-Alive
+
+### PUT
+
+El método PUT es usado para solicitar que el servidor almacene el cuerpo de la entidad en una ubicación específica dada por el URL.
+Ejemplo:
+
+Se solicita al servidor que guarde el cuerpo de la entidad dada en index.htm en la raíz del servidor:
+	
+1. PUT /index.htm HTTP/1.1
+2. User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+3. Host: www.yosoy.dev
+4. Accept-Language: es-mx
+5. Connection: Keep-Alive
+6. Content-type: text/html
+7. Content-Length: 182
+	
+1. <html>
+2. <body>
+3. <h1>Howdy, Michelle!</h1>
+4. </body>
+5. </html>
+ 
+
+### OPTIONS
+
+El método OPTIONS representa una solicitud de información acerca de las opciones de comunicación disponibles en el canal de solicitud/respuesta identificada por el Request-URI. En otras palabras, éste método es el que utilizamos para describir las opciones de comunicación existentes de un recurso destino. Dato: El cliente como tal puede especificar una URL para este método o, en su lugar, utilizar un asterisco para referirse al servidor completo.
+
+#### Ejemplo: 
+
+Se necesita saber cuáles métodos de solicitud soporta el servidor de nuestra profesora, podemos utilizar curl y una solicitud OPTIONS:
+
+	
+1. curl -X OPTIONS https://yosoy.dev -i
+
+
+
+
