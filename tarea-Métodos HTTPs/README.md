@@ -26,3 +26,16 @@ Se necesita saber cuáles métodos de solicitud soporta el servidor de nuestra p
 
 	
 1. curl -X OPTIONS https://yosoy.dev -i
+
+#### HEAD
+
+El método HEAD es muy similar al GET (funcionalmente hablando), a excepción de que el servidor responde con líneas y headers, pero no con el body de la respuesta.
+
+#### Ejemplo:
+
+1. GET /index.html HTTP/1.1  
+2. User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+3. Host: www.yosoy.dev
+4. Accept-Language: es-mx
+5. Accept-Encoding: gzip, deflate
+6. Connection: Keep-Alive
