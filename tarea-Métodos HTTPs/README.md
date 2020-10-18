@@ -43,11 +43,11 @@ Se solicita al servidor que guarde el cuerpo de la entidad dada en index.htm en 
 6. Content-type: text/html
 7. Content-Length: 182
 	
-1. <html>
-2. <body>
-3. <h1>Howdy, Michelle!</h1>
-4. </body>
-5. </html>
+ <html>
+ <body>
+ <h1>Howdy, Michelle!</h1>
+ </body>
+ </html>
  
 
 ### OPTIONS
