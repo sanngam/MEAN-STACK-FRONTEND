@@ -45,6 +45,10 @@ Se enviará información de formulario al servidor, que será procesada por un p
 7. Accept-Encoding: gzip, deflate
 8. Connection: Keep-Alive
 
+### [PATCH](https://www.oscarblancarteblog.com/2018/12/03/metodos-http-rest/)
+
+Este método es similar al método PUT, pues permite actualizar un registro existente, sin embargo, este se utiliza cuando actualizar solo un fragmento del registro y no en su totalidad, es equivalente a realizar un UPDATE a la base de datos. Soporta el envío del payload
+
 
 ### [PUT](https://yosoy.dev/peticiones-http-get-post-put-delete-etc/)
 
