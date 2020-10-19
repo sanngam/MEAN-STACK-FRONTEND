@@ -92,9 +92,9 @@ Se necesita saber cuáles métodos de solicitud soporta el servidor de nuestra p
 # Códigos de estado de HTTP
 
 
-[ERROR 302](https://es.stackoverflow.com/questions/211228/jax-ws-error-http-302-found-dian-colombia)
-[ERROR 404(https://es.stackoverflow.com/questions/57467/error-http-404-0-no-encontrado-iis)
-[ERROR 405](https://es.stackoverflow.com/questions/28135/error-http-405-en-android)
-[ERROR 409](https://es.stackoverflow.com/questions/304271/solucionar-error-networkerror-there-was-an-error-in-the-connection-because-ht)
-[ERROR 500](https://es.stackoverflow.com/questions/229916/me-sale-error-http-error-500-en-formularo-php-y-msql)
-[ERROR 503](https://es.stackoverflow.com/questions/375225/http-error-503-ubuntu-18-04-allowoverride-all)
+[ERROR 302](https://es.stackoverflow.com/questions/211228/jax-ws-error-http-302-found-dian-colombia) .
+[ERROR 404(https://es.stackoverflow.com/questions/57467/error-http-404-0-no-encontrado-iis) .
+[ERROR 405](https://es.stackoverflow.com/questions/28135/error-http-405-en-android) .
+[ERROR 409](https://es.stackoverflow.com/questions/304271/solucionar-error-networkerror-there-was-an-error-in-the-connection-because-ht) .
+[ERROR 500](https://es.stackoverflow.com/questions/229916/me-sale-error-http-error-500-en-formularo-php-y-msql) .
+[ERROR 503](https://es.stackoverflow.com/questions/375225/http-error-503-ubuntu-18-04-allowoverride-all) .
