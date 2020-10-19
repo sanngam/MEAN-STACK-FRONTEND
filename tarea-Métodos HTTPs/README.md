@@ -91,6 +91,9 @@ Se necesita saber cuáles métodos de solicitud soporta el servidor de nuestra p
 
 # Códigos de estado de HTTP
 
+#### 200-299
+[ERROR 200](https://es.stackoverflow.com/questions/175843/error-en-http-response-code-200-sin-mostrar-el-resultado-esperado)
+
 #### 300-399
 [ERROR 302](https://es.stackoverflow.com/questions/211228/jax-ws-error-http-302-found-dian-colombia) 
 
