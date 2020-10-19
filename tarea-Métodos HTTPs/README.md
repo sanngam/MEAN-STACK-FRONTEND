@@ -99,13 +99,17 @@ Se necesita saber cuáles métodos de solicitud soporta el servidor de nuestra p
 
 # Códigos de estado de HTTP
 
-#### 200-299
+Los códigos de estado de respuesta HTTP indican si se ha completado satisfactoriamente una solicitud HTTP específica. 
+
+#### 100-199 Respuestas informativas
+
+#### 200-299 Respuestas satisfactorias 
 [ERROR 200](https://es.stackoverflow.com/questions/175843/error-en-http-response-code-200-sin-mostrar-el-resultado-esperado)
 
-#### 300-399
+#### 300-399 Redirecciones
 [ERROR 302](https://es.stackoverflow.com/questions/211228/jax-ws-error-http-302-found-dian-colombia) 
 
-#### 400-499
+#### 400-499 Errores de los clientes
 [ERROR 404](https://es.stackoverflow.com/questions/57467/error-http-404-0-no-encontrado-iis) 
 
 [ERROR 403](https://es.stackoverflow.com/questions/334740/error-403-al-iniciar-aplicaci%c3%b3n)
@@ -116,7 +120,7 @@ Se necesita saber cuáles métodos de solicitud soporta el servidor de nuestra p
 
 [ERROR 422](https://es.stackoverflow.com/questions/185183/porqu%c3%a9-guzzle-5-0-lanza-el-error-422-si-estoy-armando-bien-la-consulta)
 
-#### 500-599
+#### 500-599 Errores de los servidores
 [ERROR 500](https://es.stackoverflow.com/questions/229916/me-sale-error-http-error-500-en-formularo-php-y-msql) 
 
 [ERROR 503](https://es.stackoverflow.com/questions/375225/http-error-503-ubuntu-18-04-allowoverride-all) 
