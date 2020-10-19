@@ -1,6 +1,6 @@
 ## INTRODUCCIÓN
 
-# Métodos HTTPs
+# [Métodos HTTPs](https://www.oscarblancarteblog.com/2018/12/03/metodos-http-rest/)
 
 Los métodos HTTP definen la acción que se realizará sobre un determinado recurso. Los métodos HTTP, también suelen ser llamados HTTP Verbs. Aunque el nombre correcto es Verbs, la realidad es que, en la práctica, casi siempre son llamados “métodos”, por lo que utilizaremos el nombre “métodos” para referirnos a ellos.
 
