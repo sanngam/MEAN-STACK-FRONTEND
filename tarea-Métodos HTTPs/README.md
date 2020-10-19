@@ -103,6 +103,8 @@ Se necesita saber cuáles métodos de solicitud soporta el servidor de nuestra p
 
 [ERROR 409](https://es.stackoverflow.com/questions/304271/solucionar-error-networkerror-there-was-an-error-in-the-connection-because-ht) 
 
+[ERROR 422](https://es.stackoverflow.com/questions/185183/porqu%c3%a9-guzzle-5-0-lanza-el-error-422-si-estoy-armando-bien-la-consulta)
+
 #### 500-599
 [ERROR 500](https://es.stackoverflow.com/questions/229916/me-sale-error-http-error-500-en-formularo-php-y-msql) 
 
