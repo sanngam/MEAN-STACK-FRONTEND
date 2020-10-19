@@ -96,9 +96,12 @@ Se necesita saber cuáles métodos de solicitud soporta el servidor de nuestra p
 
 #### 400-499
 [ERROR 404](https://es.stackoverflow.com/questions/57467/error-http-404-0-no-encontrado-iis) 
+
 [ERROR 405](https://es.stackoverflow.com/questions/28135/error-http-405-en-android) 
+
 [ERROR 409](https://es.stackoverflow.com/questions/304271/solucionar-error-networkerror-there-was-an-error-in-the-connection-because-ht) 
 
 #### 500-599
 [ERROR 500](https://es.stackoverflow.com/questions/229916/me-sale-error-http-error-500-en-formularo-php-y-msql) 
+
 [ERROR 503](https://es.stackoverflow.com/questions/375225/http-error-503-ubuntu-18-04-allowoverride-all) 
