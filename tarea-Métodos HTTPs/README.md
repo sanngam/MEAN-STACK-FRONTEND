@@ -103,13 +103,25 @@ Los códigos de estado de respuesta HTTP indican si se ha completado satisfactor
 
 #### 100-199 Respuestas informativas
 
+Petición recibida, continuando proceso. Esta respuesta significa que el servidor ha recibido los encabezados de la petición, y que el cliente debería proceder a enviar el cuerpo de la misma (en el caso de peticiones para las cuales el cuerpo necesita ser enviado; por ejemplo, una petición Hypertext Transfer Protocol). Si el cuerpo de la petición es largo, es ineficiente enviarlo a un servidor, cuando la petición ha sido ya rechazada, debido a encabezados inapropiados.
+
 #### 200-299 Respuestas satisfactorias 
+
+Esta clase de código de estado indica que la petición fue recibida correctamente, entendida y aceptada. 
+
 [ERROR 200](https://es.stackoverflow.com/questions/175843/error-en-http-response-code-200-sin-mostrar-el-resultado-esperado)
 
 #### 300-399 Redirecciones
+
+Esta clase de código de estado indica que una acción subsecuente necesita efectuarse por el agente de usuario para completar la petición. La acción requerida puede ser llevada a cabo por el agente de usuario sin interacción con el usuario si y solo si el método utilizado en la segunda petición es GET o HEAD. El agente de usuario no debe redirigir automáticamente una petición más de 5 veces, dado que tal funcionamiento indica usualmente un Bucle infinito. 
+
 [ERROR 302](https://es.stackoverflow.com/questions/211228/jax-ws-error-http-302-found-dian-colombia) 
 
 #### 400-499 Errores de los clientes
+La solicitud contiene sintaxis incorrecta o no puede procesarse.
+
+La intención de la clase de códigos de respuesta 4xx es para casos en los cuales el cliente parece haber errado la petición. Excepto cuando se responde a una petición HEAD, el servidor debe incluir una entidad que contenga una explicación a la situación de error, y si es una condición temporal o permanente. Estos códigos de estado son aplicables a cualquier método de solicitud (como GET o POST). Los agentes de usuario deben desplegar cualquier entidad al usuario. Estos son típicamente los códigos de respuesta de error más comúnmente encontrados. 
+
 [ERROR 404](https://es.stackoverflow.com/questions/57467/error-http-404-0-no-encontrado-iis) 
 
 [ERROR 403](https://es.stackoverflow.com/questions/334740/error-403-al-iniciar-aplicaci%c3%b3n)
@@ -121,6 +133,10 @@ Los códigos de estado de respuesta HTTP indican si se ha completado satisfactor
 [ERROR 422](https://es.stackoverflow.com/questions/185183/porqu%c3%a9-guzzle-5-0-lanza-el-error-422-si-estoy-armando-bien-la-consulta)
 
 #### 500-599 Errores de los servidores
+El servidor falló al completar una solicitud aparentemente válida.
+
+Los códigos de respuesta que comienzan con el dígito "5" indican casos en los cuales el servidor tiene registrado aún antes de servir la solicitud, que está errado o es incapaz de ejecutar la petición. Excepto cuando está respondiendo a un método HEAD, el servidor debe incluir una entidad que contenga una explicación de la situación de error, y si es una condición temporal o permanente. Los agentes de usuario deben desplegar cualquier entidad incluida al usuario. Estos códigos de respuesta son aplicables a cualquier método de petición. 
+
 [ERROR 500](https://es.stackoverflow.com/questions/229916/me-sale-error-http-error-500-en-formularo-php-y-msql) 
 
 [ERROR 503](https://es.stackoverflow.com/questions/375225/http-error-503-ubuntu-18-04-allowoverride-all) 
