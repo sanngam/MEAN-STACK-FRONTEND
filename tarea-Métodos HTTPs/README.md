@@ -97,6 +97,8 @@ Se necesita saber cuáles métodos de solicitud soporta el servidor de nuestra p
 #### 400-499
 [ERROR 404](https://es.stackoverflow.com/questions/57467/error-http-404-0-no-encontrado-iis) 
 
+[ERROR 403](https://es.stackoverflow.com/questions/334740/error-403-al-iniciar-aplicaci%c3%b3n)
+
 [ERROR 405](https://es.stackoverflow.com/questions/28135/error-http-405-en-android) 
 
 [ERROR 409](https://es.stackoverflow.com/questions/304271/solucionar-error-networkerror-there-was-an-error-in-the-connection-because-ht) 
