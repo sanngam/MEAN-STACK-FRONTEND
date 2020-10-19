@@ -49,7 +49,8 @@ Se enviará información de formulario al servidor, que será procesada por un p
 ### [PUT](https://yosoy.dev/peticiones-http-get-post-put-delete-etc/)
 
 El método PUT es usado para solicitar que el servidor almacene el cuerpo de la entidad en una ubicación específica dada por el URL.
-Ejemplo:
+
+#### Ejemplo:
 
 Se solicita al servidor que guarde el cuerpo de la entidad dada en index.htm en la raíz del servidor:
 	
@@ -66,7 +67,9 @@ Se solicita al servidor que guarde el cuerpo de la entidad dada en index.htm en 
 
 Este método es utilizado para solicitar al servidor que elimine un archivo en una ubicación específica dada por la URL. En otras palabras más simples, este método elimina un recurso determinado.
 
-Ejemplo: Se le solicitará al servidor eliminar el archivo hello.htm en la ruta raíz del servidor:
+#### Ejemplo: 
+
+Se le solicitará al servidor eliminar el archivo hello.htm en la ruta raíz del servidor:
 1. DELETE /hello.htm HTTP/1.1
 2. User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
 3. Host: www.yosoy.dev
