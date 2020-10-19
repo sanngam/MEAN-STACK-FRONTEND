@@ -2,6 +2,10 @@
 
 # Métodos HTTPs
 
+Los métodos HTTP definen la acción que se realizará sobre un determinado recurso. Los métodos HTTP, también suelen ser llamados HTTP Verbs. Aunque el nombre correcto es Verbs, la realidad es que, en la práctica, casi siempre son llamados “métodos”, por lo que utilizaremos el nombre “métodos” para referirnos a ellos.
+
+## DESARROLLO
+
 ### [GET](https://yosoy.dev/peticiones-http-get-post-put-delete-etc/)
 
 El método GET significa recuperar cualquier información (en forma de una entidad) identificada por el Request-URI. Si el Request-URI se refiere a un proceso de producción de datos, son los datos producidos los que se devolverán como entidad en la respuesta y no el texto fuente del proceso. Cabe señalar que todas las peticiones que usan el método GET, deberán recuperar únicamente datos.
