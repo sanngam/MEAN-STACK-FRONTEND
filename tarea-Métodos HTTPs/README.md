@@ -89,5 +89,9 @@ Se necesita saber cuáles métodos de solicitud soporta el servidor de nuestra p
 1. curl -X OPTIONS https://yosoy.dev -i
 
 
+# Códigos de estado de HTTP
 
+
+
+[ERROR 401](https://es.stackoverflow.com/questions/57467/error-http-404-0-no-encontrado-iis)
 
